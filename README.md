@@ -1,11 +1,11 @@
 # GraphKit
 
-GraphKit is a collection of language-specific static source code analysis tools
-which use a common output format that enumerates the definitions and
-cross-references in code. The vision driving GraphKit is to make developer tools
-(such as editors, code search, build tools, etc.) more powerful and easier to
-create, by providing a standard way for them to determine information about a
-project's source code.
+GraphKit is a collection of source code analyzers for several popular
+programming languages that output a standard data format listing a project's
+code definitions and cross-references. The vision driving GraphKit is to make
+dev tools (such as editors, code search, build tools, etc.) more powerful and
+easier to create, by providing a standard way for them to determine information
+about a project's source code.
 
 **The problem:** Dev tools, such as editors, build tools, package managers,
 linters, etc., must partially reimplement a language's compiler or interpreter
