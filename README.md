@@ -21,12 +21,16 @@ tools more powerful and easier to create.
 
 ## Components
 
-GraphKit has 2 parts: a source analyzer (called a "grapher") for each supported
-language, and a common data format that all graphers output.
+GraphKit has 2 parts: a common data format (called the sourcegraph) that
+contains information about a project's code, and a set of source analyzers
+(called **graphers**) that output this data.
 
-**Graphers:** For each supported language, GraphKit provides a source analyzer called a
-**grapher**. A grapher takes a set of files or directories containing source code as input, performs various kinds of analysis on the code (such as type checking, type inference, etc.), and outputs a data dump describing the code. The data format is described below.
+**The sourcegraph data:** A project's sourcegraph describes every definition (of
+a type, variable, class, etc.) and maps every reference to a definition in its
+source code files to its target.
 
-**Data format:** The grapher output describes every definition (of a type,
-variable, class, etc.) and maps every name in the source code files to the
-definition it references.
+**Graphers:** For each supported language, GraphKit provides a source analyzer
+program called a **grapher**. A grapher takes a set of files or directories
+containing source code as input, performs various kinds of source analysis on
+the code (such as type checking, type inference, etc.), and outputs a data dump
+describing the code. The data format is described below.
