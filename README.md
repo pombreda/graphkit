@@ -15,8 +15,9 @@ tools and they are often buggy and limited, especially for dynamic languages.
 
 **The solution:** GraphKit's goal is to provide a high-quality, standardized
 source analyzer for every popular language. Dev tools can get the information
-about a project's code that they need from a GraphKit-provided source analyzer
-for the language, instead of implementing their own ad-hoc analysis. This will make dev tools more powerful and easier to create.
+they need about a project's code from a GraphKit source analyzer for the
+language, instead of implementing their own ad-hoc analysis. This will make dev
+tools more powerful and easier to create.
 
 ## Components
 
