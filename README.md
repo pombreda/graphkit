@@ -57,3 +57,21 @@ should be released by mid-February 2014.
 | Go  | sourcegraph/gog (coming soon) | [go/types](https://code.google.com/p/go.tools) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
 | Python  | coming soon | [PySonar2](https://github.com/yinwang0/pysonar2) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
 | Ruby  | coming soon | [RubySonar](https://github.com/yinwang0/rubysonar) & [YARD](http://yardoc.org) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
+
+## Background
+
+The sponsor of this project, [Sourcegraph](https://sourcegraph.com), analyzes
+and indexes hundreds of thousands of open source projects to provide developers
+with global, semantic search for code, docs, and examples. Doing this well
+requires high-quality, comprehensive information about a code's definitions,
+cross-references, dependencies, authorship, etc.
+
+Sourcegraphers (including [@yinwang0](https://sourcegraph.com/yinwang0),
+[@beyang](https://sourcegraph.com/beyang), and
+[@sqs](https://sourcegraph.com/sqs)) have already made significant contributions
+to the underlying open source projects that power Sourcegraph's analysis, such
+as [yinwang0/pysonar2](https://github.com/yinwang0/pysonar2),
+[yinwang0/rubysonar](https://github.com/yinwang0/rubysonar), and
+[marijnh/tern](https://github.com/marijnh/tern). GraphKit sits on top of these
+libraries, adding some more features and serializing the data into the source
+graph output format.
