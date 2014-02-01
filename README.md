@@ -1,6 +1,6 @@
 ![GraphKit logo](https://raw.github.com/sourcegraph/graphkit/master/media/logo.png)
 
-Follow [@GraphKitProj](https://twitter.com/GraphKitProj) &nbsp; &bull; &nbsp; Visit [graphkit.org](http://graphkit.org)
+Follow [@GraphKitProj](https://twitter.com/GraphKitProj) &nbsp; &bull; &nbsp; Visit [graphkit.org](http://graphkit.org) &nbsp; &bull; &nbsp; Supports [JavaScript](https://sourcegraph.com/github.com/sourcegraph/jsg)  &nbsp; &bull; &nbsp; Coming soon: Python, Ruby, Go
 
 <a href="https://sourcegraph.com/github.com/joyent/node"><img align=right alt="GraphKit-provided Node.js core API function list on Sourcegraph" src="https://raw.github.com/sourcegraph/graphkit/master/media/symbols-list.png"></a> <a href="https://sourcegraph.com/github.com/joyent/node/symbols/javascript/commonjs/lib/assert.js/-/equal"><img align=right alt="GraphKit-provided cross-references on Sourcegraph" src="https://raw.github.com/sourcegraph/graphkit/master/media/examples.png"></a> GraphKit is a collection of source code analyzers for several popular
 programming languages, which output a standard data format listing a project's
