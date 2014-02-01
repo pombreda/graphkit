@@ -38,7 +38,7 @@ source code files to its target.
 program called a **grapher**. A grapher takes a set of files or directories
 containing source code as input, performs various kinds of source analysis on
 the code (such as type checking, type inference, etc.), and outputs a data dump
-describing the code. The data format is described below.
+describing the code. The data format is described tentatively at [jsg](https://github.com/sourcegraph/jsg#schema).
 
 ## Language support status
 
