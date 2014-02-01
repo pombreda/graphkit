@@ -1,6 +1,6 @@
 ![GraphKit logo](https://raw.github.com/sourcegraph/graphkit/master/media/logo.png)
 
-GraphKit is a collection of source code analyzers for several popular
+<img align=right alt="GraphKit-provided Node.js core API function list on Sourcegraph" src="https://raw.github.com/sourcegraph/graphkit/master/media/symbols-list.png"> <img align=right alt="GraphKit-provided cross-references on Sourcegraph" src="https://raw.github.com/sourcegraph/graphkit/master/media/examples.png"> GraphKit is a collection of source code analyzers for several popular
 programming languages, which output a standard data format listing a project's
 code definitions and cross-references. The long-term vision of GraphKit is to
 make dev tools (such as editors, build tools, package managers, linters, code
@@ -18,8 +18,6 @@ source analyzer for every popular language. Dev tools can get the information
 they need about a project's code from a GraphKit source analyzer for the
 language, instead of implementing their own ad-hoc analysis. This will make dev
 tools more powerful and easier to create.
-
-![GraphKit-provided search results on Sourcegraph](https://sourcegraph.com/static/assets/screens/search.png) ![GraphKit-provided cross-references on Sourcegraph](https://sourcegraph.com/static/assets/screens/examples.png)
 
 ## Components
 
