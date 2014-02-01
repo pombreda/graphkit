@@ -37,6 +37,12 @@ describing the code. The data format is described below.
 
 ## Language support status
 
+The version of GraphKit used internally at
+[Sourcegraph](https://sourcegraph.com) currently supports 4 languages, but only
+JavaScript support has been released so far. Significant components for
+supporting other languages have been released, and all should be released by
+mid-February 2014.
+
 * **Project:** the project that contains the grapher for the language.
 * **Underlying:** the existing type-checking or type-inference library that the grapher relies on, if any.
 * **Types?:** does the grapher perform type checking (for statically typed languages) or type inference (for dynamic languages)?
