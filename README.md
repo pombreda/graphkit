@@ -1,5 +1,3 @@
-# GraphKit
-
 ![GraphKit logo](https://raw.github.com/sourcegraph/graphkit/master/media/logo.png)
 
 GraphKit is a collection of source code analyzers for several popular
