@@ -38,14 +38,14 @@ describing the code. The data format is described below.
 ## Language support status
 
 * **Project:** the project that contains the grapher for the language.
-* **Underlying analyzer:** the existing type-checking or type-inference library that the grapher relies on, if any.
-* **Type inference?:** does the grapher perform type inference (for dynamic languages)?
-* **Definitions?:** does the grapher find all definitions in the code and output them?
-* **Cross-references?:** does the grapher find and resolve source code references to definitions?
-* **Documentation?:** does the grapher find documentation attached to each definition?
-* **Standard source graph output?:** does the grapher output all of the source graph data?
+* **Underlying:** the existing type-checking or type-inference library that the grapher relies on, if any.
+* **Types?:** does the grapher perform type checking (for statically typed languages) or type inference (for dynamic languages)?
+* **Defs?:** does the grapher find all definitions in the code and output them?
+* **Refs?:** does the grapher find and resolve source code references to definitions?
+* **Docs?:** does the grapher find documentation attached to each definition?
+* **Output?:** does the grapher output all of the source graph data?
 
-| Language  | Project | Underlying analyzer | Type checking/inference? | Definitions? | Cross-references? | Documentation? | Standard source graph output? |
+| Language  | Project | Underlying | Types? | Defs? | Refs? | Docs? | Output? |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | JavaScript  | [sourcegraph/jsg](https://sourcegraph.com/github.com/sourcegraph/jsg) | [marijnh/tern](https://github.com/marijnh/tern) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Go  | sourcegraph/gog (coming soon) | [go/types](https://code.google.com/p/go.tools) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
