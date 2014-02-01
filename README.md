@@ -1,7 +1,7 @@
 # GraphKit
 
 GraphKit is a collection of source code analyzers for several popular
-programming languages that output a standard data format listing a project's
+programming languages, which output a standard data format listing a project's
 code definitions and cross-references. The long-term vision of GraphKit is to
 make dev tools (such as editors, build tools, package managers, linters, code
 search, etc.) more powerful and easier to create, by providing a standard way
@@ -25,8 +25,8 @@ GraphKit has 2 parts: a common data format (called the sourcegraph) that
 contains information about a project's code, and a set of source analyzers
 (called **graphers**) that output this data.
 
-**The sourcegraph data:** A project's sourcegraph describes every definition (of
-a type, variable, class, etc.) and maps every reference to a definition in its
+**The source graph:** A project's source graph describes every definition (of a
+type, variable, class, etc.) and maps every reference to a definition in its
 source code files to its target.
 
 **Graphers:** For each supported language, GraphKit provides a source analyzer
