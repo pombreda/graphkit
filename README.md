@@ -11,7 +11,7 @@ for them to determine information about a project's source code.
 interpreter to get the information about a project's source code that's
 necessary to do their job (such as autocompletion, jump-to-definition,
 documentation lookup, or dependency tracking). That means it's hard to write dev
-tools and they are often buggy and limited, especially for dynamic languages.
+tools and they are often brittle and limited, especially for dynamic languages.
 
 **The solution:** GraphKit's goal is to provide a high-quality, standardized
 source analyzer for every popular language. Dev tools can get the information
