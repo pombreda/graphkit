@@ -22,6 +22,8 @@ they need about a project's code from a GraphKit source analyzer for the
 language, instead of implementing their own ad-hoc analysis. This will make dev
 tools more powerful and easier to create.
 
+[:star2: See a simple example of running GraphKit on a JavaScript file.](https://github.com/sourcegraph/jsg#graph-a-single-javascript-file)
+
 ## Components
 
 GraphKit has 2 parts: a common data format (called the **source graph**) that
