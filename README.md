@@ -21,7 +21,7 @@ tools more powerful and easier to create.
 
 ## Components
 
-GraphKit has 2 parts: a common data format (called the sourcegraph) that
+GraphKit has 2 parts: a common data format (called the **source graph**) that
 contains information about a project's code, and a set of source analyzers
 (called **graphers**) that output this data.
 
