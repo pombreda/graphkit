@@ -9,7 +9,8 @@ make dev tools (such as editors, build tools, package managers, linters, code
 search, etc.) more powerful and easier to create, by providing a standard way
 for them to determine information about a project's source code.
 
-**The problem:** Dev tools must partially reimplement a language's compiler or
+**The problem:** Dev tools (such as editors, build tools, package managers,
+linters, and code search) must partially reimplement a language's compiler or
 interpreter to get the information about a project's source code that's
 necessary to do their job (such as autocompletion, jump-to-definition,
 documentation lookup, or dependency tracking). That means it's hard to write dev
