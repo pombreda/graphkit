@@ -39,9 +39,9 @@ describing the code. The data format is described below.
 
 The version of GraphKit used internally at
 [Sourcegraph](https://sourcegraph.com) currently supports 4 languages, but only
-JavaScript support has been released so far. Significant components for
-supporting other languages have been released, and all should be released by
-mid-February 2014.
+JavaScript support has been released publicly so far. Significant underlying
+components for supporting other languages have been released, and the graphers
+should be released by mid-February 2014.
 
 * **Project:** the project that contains the grapher for the language.
 * **Underlying:** the existing type-checking or type-inference library that the grapher relies on, if any.
