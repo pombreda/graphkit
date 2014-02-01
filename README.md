@@ -22,7 +22,7 @@ they need about a project's code from a GraphKit source analyzer for the
 language, instead of implementing their own ad-hoc analysis. This will make dev
 tools more powerful and easier to create.
 
-[:star2: See a simple example of running GraphKit on a JavaScript file.](https://github.com/sourcegraph/jsg#graph-a-single-javascript-file)
+[See a simple example of running GraphKit on a JavaScript file.](https://github.com/sourcegraph/jsg#graph-a-single-javascript-file)
 
 ## Components
 
@@ -58,10 +58,10 @@ should be released by mid-February 2014.
 
 | Language  | Project | Underlying | Types? | Defs? | Refs? | Docs? | Output? |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
-| JavaScript  | [sourcegraph/jsg](https://sourcegraph.com/github.com/sourcegraph/jsg) | [marijnh/tern](https://github.com/marijnh/tern) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Go  | sourcegraph/gog (coming soon) | [go/types](https://code.google.com/p/go.tools) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
-| Python  | coming soon | [PySonar2](https://github.com/yinwang0/pysonar2) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
-| Ruby  | coming soon | [RubySonar](https://github.com/yinwang0/rubysonar) & [YARD](http://yardoc.org) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
+| JavaScript  | [sourcegraph/jsg](https://sourcegraph.com/github.com/sourcegraph/jsg) | [marijnh/tern](https://github.com/marijnh/tern) | YES | YES | YES | YES | YES |
+| Go  | sourcegraph/gog (coming soon) | [go/types](https://code.google.com/p/go.tools) | YES | YES | YES | YES | NO |
+| Python  | coming soon | [PySonar2](https://github.com/yinwang0/pysonar2) | YES | YES | YES | YES | NO |
+| Ruby  | coming soon | [RubySonar](https://github.com/yinwang0/rubysonar) & [YARD](http://yardoc.org) | YES | YES | YES | YES | NO |
 
 ## Background
 
