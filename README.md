@@ -1,5 +1,7 @@
 # GraphKit
 
+![GraphKit logo](https://raw.github.com/sourcegraph/graphkit/master/media/logo.png)
+
 GraphKit is a collection of source code analyzers for several popular
 programming languages, which output a standard data format listing a project's
 code definitions and cross-references. The long-term vision of GraphKit is to
