@@ -34,3 +34,20 @@ program called a **grapher**. A grapher takes a set of files or directories
 containing source code as input, performs various kinds of source analysis on
 the code (such as type checking, type inference, etc.), and outputs a data dump
 describing the code. The data format is described below.
+
+## Language support status
+
+* **Project:** the project that contains the grapher for the language.
+* **Underlying analyzer:** the existing type-checking or type-inference library that the grapher relies on, if any.
+* **Type inference?:** does the grapher perform type inference (for dynamic languages)?
+* **Definitions?:** does the grapher find all definitions in the code and output them?
+* **Cross-references?:** does the grapher find and resolve source code references to definitions?
+* **Documentation?:** does the grapher find documentation attached to each definition?
+* **Standard source graph output?:** does the grapher output all of the source graph data?
+
+| Language  | Project | Underlying analyzer | Type checking/inference? | Definitions? | Cross-references? | Documentation? | Standard source graph output? |
+| ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
+| JavaScript  | [sourcegraph/jsg](https://sourcegraph.com/github.com/sourcegraph/jsg) | [marijnh/tern](https://github.com/marijnh/tern) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Go  | sourcegraph/gog (coming soon) | [go/types](https://code.google.com/p/go.tools) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
+| Python  | coming soon | [PySonar2](https://github.com/yinwang0/pysonar2) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
+| Ruby  | coming soon | [RubySonar](https://github.com/yinwang0/rubysonar) & [YARD](http://yardoc.org) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
