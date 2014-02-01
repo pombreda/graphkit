@@ -19,6 +19,8 @@ they need about a project's code from a GraphKit source analyzer for the
 language, instead of implementing their own ad-hoc analysis. This will make dev
 tools more powerful and easier to create.
 
+![GraphKit-provided search results on Sourcegraph](https://sourcegraph.com/static/assets/screens/search.png) ![GraphKit-provided cross-references on Sourcegraph](https://sourcegraph.com/static/assets/screens/examples.png)
+
 ## Components
 
 GraphKit has 2 parts: a common data format (called the **source graph**) that
