@@ -78,3 +78,12 @@ as [yinwang0/pysonar2](https://github.com/yinwang0/pysonar2),
 [marijnh/tern](https://github.com/marijnh/tern). GraphKit sits on top of these
 libraries, adding some more features and serializing the data into the source
 graph output format.
+
+## Contributors
+
+We welcome contributions, both to this GraphKit project (which defines the
+source graph format) and to the per-language graphers and analyzers.
+
+* [Quinn Slack (@sqs)](https://sourcegraph.com/sqs)
+* [Yin Wang (@yinwang0)](https://sourcegraph.com/yinwang0)
+* [Beyang Liu (@beyang)](https://sourcegraph.com/beyang)
