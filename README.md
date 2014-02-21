@@ -1,6 +1,7 @@
 ![GraphKit logo](https://raw.github.com/sourcegraph/graphkit/master/media/logo.png)
 
-Follow [@GraphKitProj](https://twitter.com/GraphKitProj) &nbsp; &bull; &nbsp; Visit [graphkit.org](http://graphkit.org) &nbsp; &bull; &nbsp; Supports [JavaScript](https://sourcegraph.com/github.com/sourcegraph/jsg)  &nbsp; &bull; &nbsp; Coming soon: Python, Ruby, Go
+Follow [@GraphKitProj](https://twitter.com/GraphKitProj) &nbsp; &bull; &nbsp; Visit [graphkit.org](http://graphkit.org) &nbsp; &bull; &nbsp; Supports
+[JavaScript](https://sourcegraph.com/github.com/sourcegraph/jsg), [Ruby](https://github.com/yinwang0/rubysonar) &nbsp; &bull; &nbsp; Coming soon: Python, Go
 
 <a href="https://sourcegraph.com/github.com/joyent/node"><img align=right alt="GraphKit-provided Node.js core API function list on Sourcegraph" src="https://raw.github.com/sourcegraph/graphkit/master/media/symbols-list.png"></a> <a href="https://sourcegraph.com/github.com/joyent/node/symbols/javascript/commonjs/lib/assert.js/-/equal"><img align=right alt="GraphKit-provided cross-references on Sourcegraph" src="https://raw.github.com/sourcegraph/graphkit/master/media/examples.png"></a> GraphKit is a collection of language-specific source code analysers that output a standard data format listing a project's
 code definitions and cross-references. The long-term vision of GraphKit is to
@@ -58,9 +59,9 @@ should be released by mid-February 2014.
 | Language  | Project | Underlying | Types? | Defs? | Refs? | Docs? | Output? |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | JavaScript  | [sourcegraph/jsg](https://sourcegraph.com/github.com/sourcegraph/jsg) | [marijnh/tern](https://github.com/marijnh/tern) | YES | YES | YES | YES | YES |
+| Ruby  | [RubySonar](https://github.com/yinwang0/rubysonar) | [RubySonar](https://github.com/yinwang0/rubysonar) & [YARD](http://yardoc.org) | YES | YES | YES | YES | YES |
 | Go  | sourcegraph/gog (coming soon) | [go/types](https://code.google.com/p/go.tools) | YES | YES | YES | YES | NO |
 | Python  | coming soon | [PySonar2](https://github.com/yinwang0/pysonar2) | YES | YES | YES | YES | NO |
-| Ruby  | coming soon | [RubySonar](https://github.com/yinwang0/rubysonar) & [YARD](http://yardoc.org) | YES | YES | YES | YES | NO |
 
 ## Background
 
@@ -74,8 +75,7 @@ Sourcegraphers (including [@yinwang0](https://sourcegraph.com/yinwang0),
 [@beyang](https://sourcegraph.com/beyang), and
 [@sqs](https://sourcegraph.com/sqs)) have already made significant contributions
 to the underlying open source projects that power Sourcegraph's analysis, such
-as [yinwang0/pysonar2](https://github.com/yinwang0/pysonar2),
-[yinwang0/rubysonar](https://github.com/yinwang0/rubysonar), and
+as [yinwang0/pysonar2](https://github.com/yinwang0/pysonar2) and
 [marijnh/tern](https://github.com/marijnh/tern). GraphKit sits on top of these
 libraries, adding some more features and serializing the data into the source
 graph output format.
